@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
+    color: white;
+    background: 
+      linear-gradient(0deg, rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), 
+      url('../images/glow on top of bottom layer@2x.png'), 
+      linear-gradient(206.14deg, #FF6091 0%, #5127DD 145.34%);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+  }
+  
+  header {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 20px;
+  }
+  
+  header h1 {
+    margin-bottom: 10px;
+  }
+  
+  header p {
+    font-size: 1.1rem;
+  }
+  
+  main {
+    padding: 20px;
+  }
+  
+  .image-gallery {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-top: 20px;
+  }
+  
+  .image-gallery img {
+    width: calc(20% - 15px);
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    object-fit: cover;
+  }
+  
+  .contact-us {
+    margin-top: 40px;
+    text-align: center;
+  }
+  
+  .contact-us h2 {
+    font-size: 2rem;
+    margin-bottom: 20px;
+  }
+  
+  .contact-us ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .contact-us ul li {
+    margin-bottom: 10px;
+  }
+  
+  .contact-us a {
+    color: white;
+    text-decoration: none;
+  }
+  
+  .contact-us a:hover {
+    text-decoration: underline;
+  }
+  
+  footer {
+    background-color: #222;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    margin-top: 40px;
+  }
+  
+  footer p {
+    font-size: 1rem;
+  }
+  
+  @media (max-width: 768px) {
+    .image-gallery img {
+      width: calc(33.33% - 10px);
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .image-gallery img {
+      width: 100%;
+    }
+  }
+  
